@@ -1,0 +1,11 @@
+{
+  "buckets": [
+    "main",
+    "extras"
+  ],
+  "apps": [
+    "git",
+    "autohotkey",
+    "steam"
+  ]
+}
