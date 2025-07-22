@@ -10,4 +10,11 @@ else
     Write-Host "Scoop already installed" -ForegroundColor Green
 }
 
-scoop import scoopfile.json
+scoop install git
+
+scoop bucket add main 
+scoop bucket add extras
+scoop bucket add nonportable
+
+scoop install sudo
+sudo scoop install nvidia-display-driver-dch-np
